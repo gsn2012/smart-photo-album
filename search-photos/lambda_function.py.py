@@ -64,7 +64,6 @@ def sendToLex(message):
 
 def lambda_handler(event, context):
 	photos = []
-    
 	message = event['queryStringParameters']['q']
 	print("msg:")
 	print(message)
